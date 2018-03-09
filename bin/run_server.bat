@@ -7,17 +7,17 @@ ECHO =     AUTHOR : JUHN JONG HO
 ECHO =     SINCE : 2018.03.05
 ECHO =============================================================
 :projectname_pos
-SET /p PROJECT_NAME=실행할 프로젝트명을 입력하세요 : 
+SET /p PROJECT_NAME=Please enter project name : 
 IF "%PROJECT_NAME%" == "" (
-    ECHO 프로젝트명을 반드시 입력해야합니다.
+    ECHO Project name must be entered.
     GOTO projectname_pos
 )
 
 :environment_pos
-SET /p ENVIRONMENT=어떤환경으로 실행할까요?(l:Local, t:Test, p:Production) : 
+SET /p ENVIRONMENT=What environment do you want to run?(l:Local, t:Test, p:Production) : 
 
 IF "%ENVIRONMENT%" == "" (
-    ECHO 어떤 환경에서 실행할지 반드시 선택해야합니다.
+    ECHO You must choose which environment you want to run in.
     GOTO environment_pos
 )
 
