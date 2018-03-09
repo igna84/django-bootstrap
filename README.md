@@ -5,6 +5,10 @@
 * 이 프로젝트는 Sqlite3가 아닌 MySQL이 기본 Database로 설정되어있습니다.
 * 정상적인 작업실행을 위해서는 Visual Studio Code의 터미널 설정이 "cmd"로 되어있어야합니다.(※PowerShell인경우 정상적으로 동작안함)
 
+## 프로젝트 설명 블로그 포스팅
+***
+URL : [http://blog.thereis.xyz/36](http://blog.thereis.xyz/36)
+
 ## 각 디렉토리 설명
 ***
 
