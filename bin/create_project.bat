@@ -7,10 +7,10 @@ ECHO =     SINCE : 2018.03.05
 ECHO =============================================================
 
 :project_pos
-SET /p PROJECT_NAME=프로젝트명을 입력하세요 : 
+SET /p PROJECT_NAME=Input Project name : 
 
 IF %PROJECT_NAME% == "" (
-    ECHO 프로젝트명은 반드시 입력해야합니다.
+    ECHO You should input your project name.
     GOTO project_pos
 )
 
