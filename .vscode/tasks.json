@@ -24,33 +24,6 @@
             "type": "shell",
             "command": "bin\\run_server.bat"
         },{
-            "label": "Run server on backoffice local",
-            "type": "shell",
-            "command": "env\\Scripts\\activate.bat & python",
-            "args": [
-                "backoffice\\manage.py",
-                "runserver",
-                "--settings=backoffice.settings.local"
-            ]
-        },{
-            "label": "Run server on backoffice test",
-            "type": "shell",
-            "command": "env\\Scripts\\activate.bat & python",
-            "args": [
-                "backoffice\\manage.py",
-                "runserver",
-                "--settings=backoffice.settings.test"
-            ]
-        },{
-            "label": "Run server on backoffice production",
-            "type": "shell",
-            "command": "env\\Scripts\\activate.bat & python",
-            "args": [
-                "backoffice\\manage.py",
-                "runserver",
-                "--settings=backoffice.settings.production"
-            ]
-        },{
             "label": "Create Project",
             "type": "shell",
             "command": "bin\\create_project.bat"
@@ -58,28 +31,6 @@
             "label": "Create App",
             "type": "shell",
             "command": "bin\\create_app.bat"
-        },{
-            "label": "Create App For Backoffice",
-            "type": "shell",
-            "command": "bin\\create_app.bat backoffice"
-        },{
-            "label": "Migrations",
-            "type": "shell",
-            "command": "env\\Scripts\\activate.bat & python",
-            "args": [
-                "backoffice\\manage.py",
-                "migrations",
-                "--settings=backoffice.settings.local"
-            ]
-        },{
-            "label": "Migrate",
-            "type": "shell",
-            "command": "env\\Scripts\\activate.bat & python",
-            "args": [
-                "backoffice\\manage.py",
-                "migrate",
-                "--settings=backoffice.settings.local"
-            ]
         }
     ]
 }
