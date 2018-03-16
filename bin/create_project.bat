@@ -15,7 +15,6 @@ IF %PROJECT_NAME% == "" (
 )
 
 SET SETTINGS=%PROJECT_NAME%\settings
-SET APPS=%PROJECT_NAME%\apps
 
 ECHO =============================================================
 ECHO =     1. Run django-admin create app %APP_NAME%
@@ -29,7 +28,6 @@ ECHO =============================================================
 
 mkdir %PROJECT_NAME%\%SETTINGS%
 del %PROJECT_NAME%\%PROJECT_NAME%\settings.py
-mkdir %PROJECT_NAME%\%APPS%
 
 ECHO =============================================================
 ECHO =     3. CREATE SETTINGS FILES

@@ -33,7 +33,7 @@ ECHO =     Run django-admin create app "%APP_NAME%"
 ECHO =============================================================
 CALL .\env\Scripts\activate.bat
 
-cd %PROJECT_NAME%\%PROJECT_NAME%\apps
+cd %PROJECT_NAME%
 django-admin startapp %APP_NAME%
 
 ECHO =============================================================
