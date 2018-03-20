@@ -31,6 +31,10 @@
             "label": "Create App",
             "type": "shell",
             "command": "bin\\create_app.bat"
+        },{
+            "label": "Create Superuser",
+            "type": "shell",
+            "command": "bin\\create_superuser.bat"
         }
     ]
 }
