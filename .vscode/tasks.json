@@ -35,6 +35,10 @@
             "label": "Create Superuser",
             "type": "shell",
             "command": "bin\\create_superuser.bat"
+        },{
+            "label": "Migrate",
+            "type": "shell",
+            "command": "bin\\migrate.bat"
         }
     ]
 }
