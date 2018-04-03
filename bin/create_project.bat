@@ -28,12 +28,15 @@ ECHO =============================================================
 
 mkdir %PROJECT_NAME%\%SETTINGS%
 del %PROJECT_NAME%\%PROJECT_NAME%\settings.py
+CALL python bin\gen_base_setting.py %PROJECT_NAME%
 
 ECHO =============================================================
 ECHO =     3. CREATE SETTINGS FILES
 ECHO =============================================================
 type NUL > %PROJECT_NAME%\%SETTINGS%\__init__.py
 xcopy default_settings\*.* %PROJECT_NAME%\%SETTINGS%\ /e /h /k
+move /y base.py %PROJECT_NAME%\%SETTINGS%\
+
 ECHO =============================================================
 ECHO =     create project "%PROJECT_NAME%" Complete.
 ECHO =============================================================
