@@ -19,6 +19,8 @@ Visual Studio Code의 작업목록을 셋팅해둔 작업 파일입니다. 설�
 * Run server : Django 서버를 실행합니다.
 * Create Project : Django의 프로젝트를 생성합니다.
 * Create App : Django 앱을 생성합니다.
+* Create Superuser : SuperUser를 생성합니다.
+* Migrate : Migrate/MakeMigration 명령을 실행합니다. 
 
 ### default_settings
 프로젝트 생성할때 복사되는 기본 셋팅 파일들입니다.
@@ -45,6 +47,7 @@ C:\project_folder> bin\env_activate.bat
 ```
 C:\project_folder> bin\create_project.bat
 ```
+* gen_base_setting.py : create_project.bat을 실행할 때 base 셋팅파일 생성하는 클래스 모듈입니다.
 
 * create_app.bat : Django 앱을 만들어주는 명령입니다.
 ```
@@ -54,6 +57,14 @@ C:\project_folder> bin\create_app.bat
 * run_server.bat : Django 서버를 실행하는 명령입니다.
 ```
 C:\project_folder> bin\run_server.bat
+```
+* create_superuser.bat : Superuser를 생성하는 명령입니다.
+```
+C:\project_folder> bin\create_superuser.bat
+```
+* migrate.bat : migrate / makemigrations 명령을 실행하는 명령입니다.
+```
+C:\project_folder> bin\migrate.bat
 ```
 
 ### requirements
