@@ -1,10 +1,11 @@
 @ECHO OFF
 
 ECHO =============================================================
-ECHO =     RUN VIRTUAL ENVIRONMENT
+ECHO =     RUN SERVER VIRTUAL ENVIRONMENT
 ECHO =
 ECHO =     AUTHOR : JUHN JONG HO
 ECHO =     SINCE : 2018.03.05
+ECHO =     SINCE : 2018.05.24
 ECHO =============================================================
 :projectname_pos
 SET /p PROJECT_NAME=Please enter project name : 

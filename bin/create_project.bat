@@ -1,9 +1,10 @@
 @ECHO OFF
 ECHO =============================================================
-ECHO =     RUN django-admin ON VIRTUAL ENVIRONMENT
+ECHO =     RUN CREATE PROJECT ON VIRTUAL ENVIRONMENT
 ECHO =
 ECHO =     AUTHOR : JUHN JONG HO
 ECHO =     SINCE : 2018.03.05
+ECHO =     UPDATE : 2018.05.24
 ECHO =============================================================
 
 :project_pos
